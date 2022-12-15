@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.poc{
+    background-image: url("slike/nantes-kupatila7.jpg");
+}
+.div1 h1{
+    text-align: center;
+    margin-top: 250px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px white;
+    
+}
+.div1 h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 8px white;
+}
+nav ul{
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    width: 7%;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+nav ul li a:hover{
+    color: darkblue;
+    transition: 1s;
+}
+.jedan{
+    height: 300px;
+    width: 100%;
+}
+.dva h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-color: lightblue;
+}
+.tri{
+    text-align: justify;
+    font-size: 20px;
+    background-color: lightcyan;
+}
+.cetiri li{
+    font-size: 30px;
+    padding: 2px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+.pet{
+    position: absolute;
+    right:100px;
+    
+}
+.onama{
+    background-color: paleturquoise;
+    
+}
+.onama .kutija{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(170, 146, 146);
+    text-align: center;
+    font-weight: bold;
+    
+}
+.onama #id{
+    position: fixed;
+    top: 80%;
+    left: 95%;
+}
+.onama .kutija a{
+    color: rgb(1, 1, 8);
+    text-shadow: 2px 2px 8px white;
+}
+.onama li:nth-child(odd){
+    color: darkblue;
+}
+.one{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.two{
+    background-color: aqua
+}
+td{
+    font-size: 35px;
+}
+table tr td:nth-child(1){
+    background-color:cornsilk;
+}
+table tr td:nth-child(2){
+    background-color:lightblue;
+}
+table tr td:nth-child(3){
+    background-color:khaki;
+}
+table tr td:nth-child(4){
+    background-color:red;
+}
+table tr td:nth-child(5){
+    background-color:green;
+}
+table{
+    position: relative;
+    left: 8%;
+    padding-bottom: 10%;
+}
+.proizvodi{
+    background-image: url(slike/uredjenje-velikog-lupatila-featured.jpg);
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size: cover;
+    background-position-y: -200px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: darkblue;
+    
+}
+form input{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 40px;
+    border: 2px solid black;
+}
+form p{
+    font-size: 40px;
+    font-style: italic;
+}
+form button a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.kontakt{
+    background-image: url("slike/1f4b36fbbd2e1fe73f6e53093cb786624d92-1200x800.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
